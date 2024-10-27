@@ -25,7 +25,7 @@ public class Main {
             if (i != secondArray.length - 1) {
                 System.out.print(", ");
             }
-    }
+        }
         System.out.println();
 
         for (int i = 0; i < thirdArray.length; i++) {
@@ -33,7 +33,8 @@ public class Main {
 
             if (i != thirdArray.length - 1) {
                 System.out.print(", ");
-            }}
+            }
+        }
 
         System.out.println();
 
@@ -49,7 +50,7 @@ public class Main {
         }
         System.out.println();
 
-        for (int i = secondArray.length -1; i >= 0; i--) {
+        for (int i = secondArray.length - 1; i >= 0; i--) {
             System.out.print(secondArray[i]);
 
             if (i != secondArray.length - 1) {
@@ -58,23 +59,23 @@ public class Main {
         }
         System.out.println();
 
-        for (int i = thirdArray.length - 1; i >=0 ; i--) {
+        for (int i = thirdArray.length - 1; i >= 0; i--) {
             System.out.print(thirdArray[i]);
 
             if (i != thirdArray.length - 1) {
                 System.out.print(", ");
-            }}
+            }
+        }
 
         System.out.println();
 
         // Задание 4
-        for (int i = 0; i < firstArray.length; i++)
-        {
-            if (firstArray[i]%2 != 0)
-            {
+        for (int i = 0; i < firstArray.length; i++) {
+            if (firstArray[i] % 2 != 0) {
                 firstArray[i]++;
             }
         }
 
-        System.out.println(Arrays.toString (firstArray));
-    }}
+        System.out.println(Arrays.toString(firstArray));
+    }
+}
